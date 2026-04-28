@@ -1,7 +1,7 @@
 Day01 - Journey
 ---------------
 * Java Input & Output
-https://www.codehelp.in/dashboard/articles/article-1772438547414-ibuabp
+* https://www.codehelp.in/dashboard/articles/article-1772438547414-ibuabp
 
 * Conditional Statements: If, elseIf, else, switch
 * https://takeuforward.org/if-else/if-else-statements
