@@ -1,0 +1,22 @@
+public class CBVandCBR {
+
+    public void cbv(int x){
+        System.out.println("a Value inside the method: "+(x+=5));
+    }
+    int x=10;
+    public void cbr(CBVandCBR r){
+        r.x = r.x+1;
+    }
+
+    static void main() {
+         int a=10;
+        CBVandCBR c = new CBVandCBR();
+        System.out.println("Before obj: "+ c.x);
+        c.cbr(c);
+        System.out.println("After obj: "+ c.x);
+
+        System.out.println("a value before passing: "+a);
+        c.cbv(a);
+        System.out.println("a value after passing: "+a);
+    }
+}
