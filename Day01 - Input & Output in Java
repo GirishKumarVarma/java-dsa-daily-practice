@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class InputOutput {
+    static void main() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Eneter Text: ");
+        String text = scanner.nextLine();
+        System.out.println(text);
+        System.out.println("Eneter Word: ");
+        String word = scanner.next();
+        System.out.println(word);
+        scanner.nextLine(); //Used to not skip line from next() and nextLine()
+        System.out.println("Enter your Name: ");
+        String name = scanner.nextLine();
+        System.out.printf("Hello %s", name);
+
+        /*
+        * For Input we can use Scanner class to get input from the Console
+        * For Output we can use
+        * System.out.println();
+        * System.out.print();
+        * System.out.printf("Hello %s", name);
+        * */
+
+    }
+}
